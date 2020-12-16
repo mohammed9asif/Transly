@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:minHeight="@dimen/item_list_array"
+    android:background="@color/tan_background"
+
+
+    >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/item_list_array"
+        android:layout_height="@dimen/item_list_array"
+
+
+
+       />
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="88dp"
+   android:paddingLeft="16dp"
+   android:layout_toRightOf="@id/image"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+
+    android:id="@+id/color"
+
+    >
+
+    <TextView
+        android:id="@+id/miwok_word"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        tools:text="lutti"
+
+        />
+
+    <TextView
+        android:id="@+id/english_word"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:text="One"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:gravity="top"
+
+
+        />
+
+
+</LinearLayout>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/baseline_play_arrow_white_24dp"
+       android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        />
+</RelativeLayout>
